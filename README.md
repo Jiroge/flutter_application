@@ -1,16 +1,33 @@
-# flutter_application
+# Shopping Page Flutter App
 
-A new Flutter project.
+## Installation and Setup
 
-## Getting Started
+### 1. Get All Required Libraries
+Run the following command to add the required dependencies:
+```bash
+flutter pub add intl
+```
+This ensures all necessary libraries are installed.
 
-This project is a starting point for a Flutter application.
+### 2. Run the App
+To start the app, you can use one of the following methods:
 
-A few resources to get you started if this is your first Flutter project:
+#### Command Line
+Execute the following command in the terminal:
+```bash
+flutter run lib/main.dart
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### IDE Execution
+In your preferred IDE (such as Visual Studio Code or Android Studio), run the application by selecting `lib/main.dart` as the entry point and clicking on **Run Without Debugging**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 3. [Optional] Updating the Shopping API Server
+You can update the shopping API server URL in the configuration file located at:
+```
+lib/main.dart
+```
+Modify the relevant section to point to the desired server endpoint.
+
+---
+
+Thank you for your time and effort!
