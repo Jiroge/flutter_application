@@ -24,7 +24,7 @@ In your preferred IDE (such as Visual Studio Code or Android Studio), run the ap
 ## 3. [Optional] Updating the Shopping API Server
 You can update the shopping API server URL in the configuration file located at:
 ```
-lib/main.dart
+lib/config.dart
 ```
 Modify the relevant section to point to the desired server endpoint.
 
